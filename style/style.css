@@ -14,7 +14,7 @@
 
 .bg{
 
-    background-image: url(img/botaozim.svg);
+    background-image: url(botaozim.svg);
     background-repeat: no-repeat;
     background-position: center;
  
@@ -22,7 +22,7 @@
 
 .bg2{
 
-    background-image: url(img/botaozim.svg);
+    background-image: url(botaozim.svg);
     background-repeat: no-repeat;
     background-position: center;
     
@@ -96,7 +96,7 @@
 }
 .hero-wrap{
 
-    background-image: url(img/img2.png);
+    background-image: url(img2.png);
     background-repeat: no-repeat; background-attachment: fixed;
 background-position: center;
   
