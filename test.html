@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animação</title>
+<style>
+
+    body{
+        display: grid;
+        place-items: center;
+    }
+
+    .spinner{
+
+        width: 100%;
+        height: 100%;
+        animation: Morph 3500ms infinite;
+    }
+
+    @keyframes Morph{
+
+        0%, 100%{
+            clip-path: polygon(50%, 0%, 100%, 50%,50%, 100%,0%,50%);
+            transform: rotate(0deg);
+            background-color: rgb(255,0,0);
+
+        }
+
+        50%{
+
+            clip-path: polygon(50%,0%,50%,100%,100%,0%,100%);
+            rotate:(180deg);
+            background-color: rgb(255,238,0);
+            
+        }
+    }
+
+</style>
+ 
+</head>
+
+<body>
+
+<h1 style="color: blue;">MK</h1>
+<h2>Animação</h2>
+<div class="spinner"></div>
+
+
+
+
+
+</body>
+
+</html>

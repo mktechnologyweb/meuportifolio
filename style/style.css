@@ -1,0 +1,181 @@
+
+
+
+.color{
+
+   
+   background-color: #202733;
+   
+}
+.roundede{
+    border-radius: 50rem!important;
+    background-color:  #74DEDA;
+}
+
+.bg{
+
+    background-image: url(/img/botaozim.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+
+.bg2{
+
+    background-image: url(/img/botaozim.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+ 
+}
+
+.textpz{
+    color: #202733;
+   font-family: "Poppins", sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+   
+}
+
+.bgcinza{
+
+    background-color: #2B3443;
+   
+    
+
+}
+.blue{
+    background-color: #202733;
+}
+
+.text-p{
+
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    vertical-align: baseline;
+}
+
+.nav-pills .nav-link.active {
+   
+    background-color:  #74DEDA;
+}
+
+.border-primary {
+    border-color: #74DEDA !important;
+}
+.texte{
+
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  
+}
+
+.texte2{
+
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  
+}
+
+.bluelight{
+
+    background-color: #74DEDA;
+    color:#202733;
+}
+.text-danger{
+
+   color: #74DEDA !important;
+}
+
+.download{
+
+    border: 1px solid #7BF7F3;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.hero-wrap{
+
+    background-image: url(/img/img2.png);
+    background-repeat: no-repeat; background-attachment: fixed;
+background-position: center;
+  
+}
+
+
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+
+  @media screen {
+
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      
+      .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 1px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+      }
+    
+    
+  }
+
+
+
+
+  /* text animate*/
+ 
+
+.space {
+  display: inline-block;
+  width: 10px;
+}
+
+.text-animation {
+  display: inline-block;
+  position: relative;
+  color: transparent;
+  text-transform: uppercase;
+}
+.text-animation:before {
+ 
+  -webkit-transform: translate(-50%, -55%);
+  -ms-transform: translate(-50%, -55%);
+  transform: translate(-50%, -55%);
+}
+.text-animation.state-1:before {
+  width: 1px;
+}
+.text-animation.state-2:before {
+  width: 0.9em;
+}
+.text-animation.state-3 {
+  color: white;
+}
+.text-animation.state-3:before {
+  width: 0;
+}
+
