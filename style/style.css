@@ -439,4 +439,264 @@ h5 {
   
 
 
+
+/* Styling the body of the page */
+
+/* Stylingthe last h2 tag by giving margin bottom */
+
+/* Styling the h2 tag by giving color,
+letter spacing, font-size etc.*/
+
+
+/* Styling the border and box
+effect of the progress bar*/
+h5 {
+    
+    font-family: "Poppins", sans-serif;
+    color: #eee;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+
+
+/*barra de navegação*/
+
+::-webkit-scrollbar {
+   
+    background-color: #202733;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+  
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7BF7F3; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7BF7F3; 
+    
+  }
+
+  .global {
+    font-size: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(13) infinite  alternate,
+      blink 800ms steps(13) infinite normal;
+    border-right: 5px solid white;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 130%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: white;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
+  /*animation skill*/
+  .progress-bar {
+    width: auto;
+    
+    height: 5px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #74DEDA;
+}
+
+
+  .containers {
+    margin-left: 45px;
+    width: 80%;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius:15px;
+    margin-bottom: 35px;
+  }
+  
+  
+#htBar {
+    width: 0%;
+    height: 5px; 
+    border-radius: 15px;
+    font-size: 100px;
+    background-color: #00FFFF;
+    text-align: right;
+    color: #000000;
+    animation: animateskillbar1 1s 2s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  
+  @keyframes animateskillbar1{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 0%;
+    }
+  }
+  @keyframes animateskillbar11{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+  #csBar{
+    width: 0%;
+    height: 5px; 
+    border-radius: 15px;
+    font-size: 4px;
+    background-color: #00FFFF;
+    text-align: right;
+    color: #000000;
+    animation: animateskillbar2 1s 2s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  @keyframes animateskillbar22{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+  @keyframes animateskillbar2{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+  
+  
+  #jsBar{
+    width: 0%;
+    height: 5px; 
+    border-radius: 15px;
+    font-size: 4px;
+    background-color: #00FFFF;
+    text-align: right;
+    color: #000000;
+    animation: animateskillbar3 1s 2s cubic-bezier(1,0,0.5,1) forwards;
+    }
+    @keyframes animateskillbar33{
+      0%{
+        width: 0%;
+      }
+      100%{
+        width: 65%;
+      }
+    }
+    @keyframes animateskillbar3{
+      0%{
+        width: 0%;
+      }
+      100%{
+        width: 80%;
+      }
+    }
+    
+
+  #nodeBar{
+    width: 0%; 
+    height: 5px; 
+    border-radius: 15px;
+    font-size: 4px;
+    background-color: #00FFFF;
+    text-align: right;
+    color: #000000;
+    animation: animateskillbar4 1s 2s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  @keyframes animateskillbar44{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 60%;
+    }
+  }
+  @keyframes animateskillbar4{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 80%;
+    }
+  }
+  
+  #expressBar{
+    width: 0%;
+    height: 5px; 
+    border-radius: 15px;
+    font-size: 4px;
+    background-color: #00FFFF;
+    text-align: right;
+    color: #000000;
+    animation: animateskillbar5 1s 2s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  @keyframes animateskillbar55{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 60%;
+    }
+  }
+  @keyframes animateskillbar5{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+  
+  #mongodbBar{
+    width: 0%;
+    height:5px; 
+    border-radius: 15px;
+    font-size: 4px;
+    background-color: #00FFFF;
+    text-align: right;
+    color: #000000;
+    animation: animateskillbar6 1s 2s cubic-bezier(1,0,0.5,1) forwards;
+    }
+    @keyframes animateskillbar66{
+      0%{
+        width: 0%;
+      }
+      100%{
+        width: 100%;
+      }
+    }
+    @keyframes animateskillbar6{
+      0%{
+        width: 0%;
+      }
+      100%{
+        width: 0%;
+      }
+    }
+  
+
+
+    
     
